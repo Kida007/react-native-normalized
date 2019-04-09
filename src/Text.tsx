@@ -1,7 +1,16 @@
 import React from "react";
-import { Text, StyleSheet } from "react-native";
+import {
+  Text,
+  StyleSheet,
+  TextProps,
+  Constructor,
+  NativeMethodsMixin
+} from "react-native";
 
-class NormalizedText extends React.Component {
+declare class TextComponent extends React.Component<TextProps> {}
+declare const TextBase: Constructor<NativeMethodsMixin> & typeof TextComponent;
+
+class NormalizedText extends TextBase {
   render() {
     const { style, ...restProps } = this.props;
 
