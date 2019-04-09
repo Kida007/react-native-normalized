@@ -7,7 +7,7 @@ import {
   NativeMethodsMixin
 } from "react-native";
 
-export declare class TextComponent extends React.Component<TextProps> {}
+export class TextComponent extends React.Component<TextProps> {}
 export declare type TextBase = Constructor<NativeMethodsMixin> &
   typeof TextComponent;
 
