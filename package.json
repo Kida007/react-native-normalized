@@ -12,7 +12,7 @@
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
   "react-native": "lib/module/index.js",
-  "typescript": "lib/typescript/src/index.d.ts",
+  "typescript": "lib/typescript/index.d.ts",
   "files": [
     "lib/",
     "src/"
