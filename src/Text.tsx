@@ -8,9 +8,8 @@ import {
 } from "react-native";
 
 declare class TextComponent extends React.Component<TextProps> {}
-declare const TextBase: Constructor<NativeMethodsMixin> & typeof TextComponent;
 
-class NormalizedText extends TextBase {
+class NormalizedText extends TextComponent {
   render() {
     const { style, ...restProps } = this.props;
 
