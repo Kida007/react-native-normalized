@@ -1,6 +1,6 @@
 {
   "name": "react-native-normalized",
-  "version": "0.0.1-alpha.9",
+  "version": "0.0.1-alpha.10",
   "description": "React Native components with more consistent behavior on iOS and Android",
   "repository": "https://github.com/Kida007/react-native-normalized",
   "author": "Piyush Gupta, Jonny Burger",
@@ -12,7 +12,7 @@
   "main": "lib/commonjs/index.js",
   "module": "lib/module/index.js",
   "react-native": "lib/module/index.js",
-  "typescript": "lib/typescript/index.d.ts",
+  "types": "lib/typescript/index.d.ts",
   "files": [
     "lib/",
     "src/"
