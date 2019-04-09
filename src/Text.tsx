@@ -7,7 +7,11 @@ import {
   NativeMethodsMixin
 } from "react-native";
 
-class NormalizedText extends React.Component<TextProps> {
+export declare class TextComponent extends React.Component<TextProps> {}
+export declare type TextBase = Constructor<NativeMethodsMixin> &
+  typeof TextComponent;
+
+class NormalizedText extends TextComponent {
   render() {
     const { style, ...restProps } = this.props;
 
