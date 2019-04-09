@@ -5233,6 +5233,11 @@ react-is@^16.8.1, react-is@^16.8.3, react-is@^16.8.4:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.8.6.tgz#5bbc1e2d29141c9fbdfed456343fe2bc430a6a16"
   integrity sha512-aUk3bHfZ2bRSVFFbbeVS4i+lNPZr3/WM5jT2J5omUVV1zzcs1nAaf3l51ctA5FFvCRbhrH0bdAsRRQddFJZPtA==
 
+react-native-normalized@^0.0.1-alpha:
+  version "0.0.1-alpha"
+  resolved "https://registry.yarnpkg.com/react-native-normalized/-/react-native-normalized-0.0.1-alpha.tgz#a10787b68814f79087e0d9f9bd7a45f37a2e58ca"
+  integrity sha512-U2kgkr6XPEOz3iuU9x5MxL938N2X+DD+mKA/2RqVc1V5Td5osdpmPPtYasYgAzmZObiMaF0GLl6nHTfYDJKpYA==
+
 react-native@0.59.2:
   version "0.59.2"
   resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.59.2.tgz#c2e2d9e185b04e54948f170841d97c24661a0fa9"
