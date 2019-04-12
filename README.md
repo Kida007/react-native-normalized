@@ -124,3 +124,9 @@ Normalized<br/><code>TextInput</code><br/>on Android
 <li>The default placeholder text color is <code>#C7C7CD</code> on Android, the same as the iOS default
 <li>The default <code>underlineColorAndroid</code> is <code>transparent</code>. This is the default behavior since React Native 0.56, so it will only make a difference if you still use an older version.
 </ul>
+
+## Authors
+This library is brought to you by [Piyush Gupta](https://twitter.com/kidaa007) and [Jonny Burger](https://twitter.com/JNYBGR).
+
+## License
+MIT
