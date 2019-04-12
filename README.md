@@ -52,7 +52,7 @@ Normalized <code>Text</code> on Android
 </td>
 <td>
 <img src="readme-assets/normalized-text.png"/>
-<td>
+</td>
 </tr>
 </table>
 
