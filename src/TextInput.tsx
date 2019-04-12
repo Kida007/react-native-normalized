@@ -9,6 +9,7 @@ class NormalizedTextInput extends React.Component<TextInputProps> {
     return (
       <TextInput
         underlineColorAndroid="transparent"
+        placeholderTextColor="#C7C7CD"
         {...newProps}
         {...this.props}
       />
