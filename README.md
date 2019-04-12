@@ -39,12 +39,12 @@ export default App;
 ### `<ActivityIndicator/>`
 <table>
 <tr>
-<th>
+<td align="center">
 Native <br/><code>ActivityIndicator</code><br/> on Android
-</th>
-<th>
+</td>
+<td align="center">
 Native <br/><code>ActivityIndicator</code><br/> on iOS
-</th>
+</td>
 <th>
 Normalized <br/> <code>ActivityIndicator</code><br/> on Android
 </th>
@@ -69,9 +69,9 @@ Normalized <br/> <code>ActivityIndicator</code><br/> on Android
 ### `<Text/>`
 <table>
 <tr>
-<th>
+<td align="center">
 Native <code>Text</code> on Android
-</th>
+</td>
 <th>
 Normalized <code>Text</code> on Android
 </th>
@@ -89,4 +89,38 @@ Normalized <code>Text</code> on Android
 <ul>
 <li>The default color of the text is black <code>#000000</code>
 <li>The default font on Android is explicitly set to Roboto. This <a target="_blank" href="https://github.com/facebook/react-native/issues/15114">fixes an issue which cuts off text on Oppo and OnePlus phones.</a>
+</ul>
+
+### `<TextInput/>`
+<table>
+<tr>
+<td align="center">
+Native<br/><code>TextInput</code><br/>on Android
+</td>
+<td align="center">
+Native<br/><code>TextInput</code><br/>on iOS
+</td>
+<th>
+Normalized<br/><code>TextInput</code><br/>on Android
+</th>
+</tr>
+<tr>
+<td>
+<img src="readme-assets/native-textinput.png"/>
+</td>
+<td>
+<img src="readme-assets/ios-textinput.png"/>
+</td>
+<td>
+<img src="readme-assets/normalized-textinput.png"/>
+</td>
+</tr>
+</table>
+<p align="center"><sup>Screenshot shows a TextInput with style <code>{width: '100%', height: 100, backgroundColor: 'white'}</code> and <code>multiline={true}</code>.</sup></p>
+
+
+<ul>
+<li>A multiline TextInput by default aligns the top on top on Android.
+<li>The default placeholder text color is <code>#C7C7CD</code> on Android, the same as the iOS default
+<li>The default <code>underlineColorAndroid</code> is <code>transparent</code>. This is the default behavior since React Native 0.56, so it will only make a difference if you still use an older version.
 </ul>
