@@ -37,4 +37,26 @@ export default App;
 ## Components
 
 ### `<Text/>`
+<table>
+<tr>
+<th>
+Native <code>Text</code> on Android
+</th>
+<th>
+Normalized <code>Text</code> on Android
+</th>
+</tr>
+<tr>
+<td>
+<img src="readme-assets/native-text.png"/>
+</td>
+<td>
+<img src="readme-assets/normalized-text.png"/>
+<td>
+</tr>
+</table>
 
+<ul>
+<li>The default color of the text is black `#000000`
+<li>The default font on Android is explicitly set to Roboto. This <a target="_blank" href="https://github.com/facebook/react-native/issues/15114">fixes an issue which cuts off text on Oppo and OnePlus phones.</a>
+</ul>
