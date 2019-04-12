@@ -1,3 +1,4 @@
 import Text from "./Text";
+import ActivityIndicator from "./ActivityIndicator";
 
-export { Text };
+export { ActivityIndicator, Text };
