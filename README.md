@@ -36,6 +36,36 @@ export default App;
 
 ## Components
 
+### `<ActivityIndicator/>`
+<table>
+<tr>
+<th>
+Native <br/><code>ActivityIndicator</code><br/> on Android
+</th>
+<th>
+Native <br/><code>ActivityIndicator</code><br/> on iOS
+</th>
+<th>
+Normalized <br/> <code>ActivityIndicator</code><br/> on Android
+</th>
+</tr>
+<tr>
+<td align="center">
+<img src="readme-assets/native-activityindicator.png"/>
+</td>
+<td align="center">
+<img src="readme-assets/ios-activityindicator.png"/>
+</td>
+<td align="center">
+<img src="readme-assets/normalized-activityindicator.png"/>
+</td>
+</tr>
+</table>
+
+<ul>
+<li>The default color of the activity indicator is <code>#999999</code>, the same color as the iOS Activity Indicator.
+</ul>
+
 ### `<Text/>`
 <table>
 <tr>
@@ -57,6 +87,6 @@ Normalized <code>Text</code> on Android
 </table>
 
 <ul>
-<li>The default color of the text is black `#000000`
+<li>The default color of the text is black <code>#000000</code>
 <li>The default font on Android is explicitly set to Roboto. This <a target="_blank" href="https://github.com/facebook/react-native/issues/15114">fixes an issue which cuts off text on Oppo and OnePlus phones.</a>
 </ul>
