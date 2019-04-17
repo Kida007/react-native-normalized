@@ -147,6 +147,14 @@ Normalized<br/><code>TextInput</code><br/>on Android
 <li>The default <code>underlineColorAndroid</code> is <code>transparent</code>. This is the default behavior since React Native 0.56, so it will only make a difference if you still use an older version.
 </ul>
 
+## Development and Ideas
+
+Do you know of more components that could be made more consistent and that would fit well into this project? Let us know!
+
+Currently we have two ideas for which we welcome code and comments:
+
+- [Consistent dismissal behavior for Alert.alert() #2](https://github.com/Kida007/react-native-normalized/issues/2)
+- [Consistent <Picker/>](https://github.com/Kida007/react-native-normalized/issues/1)
 
 ## Authors
 This library is brought to you by [Piyush Gupta](https://twitter.com/kidaa007) and [Jonny Burger](https://twitter.com/JNYBGR).
