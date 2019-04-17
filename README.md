@@ -11,6 +11,8 @@ React Native's built-in components render slightly different on iOS and Android,
 
 This project provides you with slightly adjusted adaptions of built-in React Native components with the goal of being more consistent between platforms. Think of it as [normalize.css](https://github.com/necolas/normalize.css) for React Native.
 
+To be clear, these are not bugs in React Native, rather RN opts to preserve the default behavior on each platform as much as possible. Nonetheless, you might prefer to use components that behave the consistently.
+
 ## Usage
 Simply import a normalized component from `react-native-normalized` instead of `react-native`:
 
@@ -123,6 +125,7 @@ Normalized<br/><code>TextInput</code><br/>on Android
 <li>The default placeholder text color is <code>#C7C7CD</code> on Android, the same as the iOS default
 <li>The default <code>underlineColorAndroid</code> is <code>transparent</code>. This is the default behavior since React Native 0.56, so it will only make a difference if you still use an older version.
 </ul>
+
 
 ## Authors
 This library is brought to you by [Piyush Gupta](https://twitter.com/kidaa007) and [Jonny Burger](https://twitter.com/JNYBGR).
