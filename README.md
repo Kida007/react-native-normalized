@@ -87,10 +87,31 @@ Normalized <code>Text</code> on Android
 </tr>
 </table>
 
+
 <ul>
 <li>The default color of the text is black <code>#000000</code>
-<li>The default font on Android is explicitly set to Roboto. This <a target="_blank" href="https://github.com/facebook/react-native/issues/15114">fixes an issue which cuts off text on Oppo and OnePlus phones.</a>
+<li>The default font on Android is explicitly set to Roboto. This <a target="_blank" href="https://github.com/facebook/react-native/issues/15114">fixes an issue which cuts off text on Oppo and OnePlus phones:</a>
 </ul>
+
+<table>
+<tr>
+<td align="center">
+Native <code>Text</code> on OnePlus phone
+</td>
+<th>
+Normalized <code>Text</code> on OnePlus phone
+</th>
+</tr>
+<tr>
+<td>
+<img src="readme-assets/bold-text-native-oppo.png"/>
+</td>
+<td>
+<img src="readme-assets/bold-text-normalized.png"/>
+</td>
+</tr>
+</table>
+<p align="center"><sup>Screenshot shows a Text on OxygenOS which is bold and inside a <code><View style={{flexDirection: 'row'}}> container</code>, triggering the bug.</sup></p>
 
 ### `<TextInput/>`
 <table>
