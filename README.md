@@ -111,7 +111,7 @@ Normalized <code>Text</code> on OnePlus phone
 </td>
 </tr>
 </table>
-<p align="center"><sup>Screenshot shows a Text on OxygenOS which is bold and inside a <code><View style={{flexDirection: 'row'}}> container</code>, triggering the bug.</sup></p>
+<p align="center"><sup>Screenshot shows a Text on OxygenOS which is bold and inside a <code>&lt;View style={{flexDirection: 'row'}}> container</code>, triggering the bug.</sup></p>
 
 ### `<TextInput/>`
 <table>
