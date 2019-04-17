@@ -11,7 +11,7 @@ React Native's built-in components render slightly different on iOS and Android,
 
 This project provides you with slightly adjusted adaptions of built-in React Native components with the goal of being more consistent between platforms. Think of it as [normalize.css](https://github.com/necolas/normalize.css) for React Native.
 
-To be clear, these are not bugs in React Native, rather RN opts to preserve the default behavior on each platform as much as possible. Nonetheless, you might prefer to use components that behave the consistently.
+To be clear, these are not bugs in React Native, rather RN opts to preserve the default behavior on each platform as much as possible. Nonetheless, you might prefer to use components that behave more consistently.
 
 ## Usage
 Simply import a normalized component from `react-native-normalized` instead of `react-native`:
