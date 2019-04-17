@@ -142,7 +142,7 @@ Normalized<br/><code>TextInput</code><br/>on Android
 
 
 <ul>
-<li>A multiline TextInput by default aligns the top on top on Android.
+<li>If <code>multiline</code> is true, the text aligns on top on Android.
 <li>The default placeholder text color is <code>#C7C7CD</code> on Android, the same as the iOS default
 <li>The default <code>underlineColorAndroid</code> is <code>transparent</code>. This is the default behavior since React Native 0.56, so it will only make a difference if you still use an older version.
 </ul>
