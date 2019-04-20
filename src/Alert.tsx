@@ -16,4 +16,6 @@ export default class NormalizedAlert {
       type
     );
   }
+  // @ts-ignore
+  static prompt = Alert.prompt;
 }
