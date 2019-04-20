@@ -35,7 +35,11 @@ class App extends React.Component {
 export default App;
 ```
 
-## Components
+## APIs and Components
+
+### `Alert`
+
+* `Alert.alert()` is by default not dismissable. The RN implementation is dismissable on Android but not on iOS.
 
 ### `<ActivityIndicator/>`
 <table>
