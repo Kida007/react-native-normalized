@@ -7,7 +7,7 @@
 <p align="center">
 </p>
 
-React Native's built-in components render slightly different on iOS and Android, causing you to spend extra time making the UI more consistent across devices. For example, did you know that when you create a fresh project using `react-native init`, the color of a `<Text/>` is by default <img src="readme-assets/000000.png" width="16" /> `#000000` on iOS and <img src="readme-assets/808080.png" width="16" /> `#808080` on Android?
+React Native's built-in components render slightly different on iOS and Android, causing you to spend extra time making the UI more consistent across devices. For example, did you know that when you create a fresh project using `react-native init`, the color of a `<Text/>` is by default <img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/000000.png" width="16" /> `#000000` on iOS and <img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/808080.png" width="16" /> `#808080` on Android?
 
 This project provides you with slightly adjusted adaptions of built-in React Native components with the goal of being more consistent between platforms. Think of it as [normalize.css](https://github.com/necolas/normalize.css) for React Native.
 
@@ -52,13 +52,13 @@ Normalized <br/> <code>ActivityIndicator</code><br/> on Android
 </tr>
 <tr>
 <td align="center">
-<img src="readme-assets/native-activityindicator.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/native-activityindicator.png"/>
 </td>
 <td align="center">
-<img src="readme-assets/ios-activityindicator.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/ios-activityindicator.png"/>
 </td>
 <td align="center">
-<img src="readme-assets/normalized-activityindicator.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/normalized-activityindicator.png"/>
 </td>
 </tr>
 </table>
@@ -79,10 +79,10 @@ Normalized <code>Text</code> on Android
 </tr>
 <tr>
 <td>
-<img src="readme-assets/native-text.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/native-text.png"/>
 </td>
 <td>
-<img src="readme-assets/normalized-text.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/normalized-text.png"/>
 </td>
 </tr>
 </table>
@@ -104,10 +104,10 @@ Normalized <code>Text</code> on OnePlus phone
 </tr>
 <tr>
 <td>
-<img src="readme-assets/bold-text-native-oppo.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/bold-text-native-oppo.png"/>
 </td>
 <td>
-<img src="readme-assets/bold-text-normalized.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/bold-text-normalized.png"/>
 </td>
 </tr>
 </table>
@@ -128,13 +128,13 @@ Normalized<br/><code>TextInput</code><br/>on Android
 </tr>
 <tr>
 <td>
-<img src="readme-assets/native-textinput.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/native-textinput.png"/>
 </td>
 <td>
-<img src="readme-assets/ios-textinput.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/ios-textinput.png"/>
 </td>
 <td>
-<img src="readme-assets/normalized-textinput.png"/>
+<img src="https://raw.githubusercontent.com/Kida007/react-native-normalized/HEAD/readme-assets/normalized-textinput.png"/>
 </td>
 </tr>
 </table>
