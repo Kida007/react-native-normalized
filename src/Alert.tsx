@@ -5,16 +5,9 @@ export default class NormalizedAlert {
     title: string,
     message?: string,
     buttons?: AlertButton[],
-    options?: AlertOptions,
-    type?: string
+    options?: AlertOptions
   ) {
-    Alert.alert(
-      title,
-      message,
-      buttons,
-      { ...options, cancelable: false },
-      type
-    );
+    Alert.alert(title, message, buttons, { ...options, cancelable: false });
   }
   // @ts-ignore
   static prompt = Alert.prompt;
