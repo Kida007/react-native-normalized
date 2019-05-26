@@ -71,6 +71,10 @@ Normalized <br/> <code>ActivityIndicator</code><br/> on Android
 <li>The default color of the activity indicator is <code>#999999</code>, the same color as the iOS Activity Indicator.
 </ul>
 
+### `<Image/>`
+
+* By default, on Android, an `<Image/>` fades in with a 300ms delay. With the normalized component, there is no fade animation.
+
 ### `<Text/>`
 <table>
 <tr>
