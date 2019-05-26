@@ -1,12 +1,19 @@
-import React from "react";
-import { ActivityIndicatorProps, ActivityIndicator } from "react-native";
+import React, { forwardRef } from "react";
+import {
+  ActivityIndicatorProps,
+  ActivityIndicator as NativeActivityIndicator
+} from "react-native";
 
-class NormalizedActivityIndicator extends React.Component<
-  ActivityIndicatorProps
-> {
-  render() {
-    return <ActivityIndicator color="#999999" {...this.props} />;
+const NormalizedActivityIndicator = forwardRef(
+  (props: ActivityIndicatorProps, ref: React.Ref<any>) => {
+    return (
+      <NativeActivityIndicator
+        {...(ref ? { ref } : {})}
+        color="#999999"
+        {...props}
+      />
+    );
   }
-}
+);
 
 export default NormalizedActivityIndicator;
