@@ -1,19 +1,25 @@
-import React from "react";
-import { Text, StyleSheet, TextProps, Platform } from "react-native";
+import React, { forwardRef } from "react";
+import {
+  Text as NativeText,
+  StyleSheet,
+  TextProps,
+  Platform
+} from "react-native";
 
-class NormalizedText extends React.Component<TextProps> {
-  render() {
-    const { style, ...restProps } = this.props;
-
+const Text = forwardRef(
+  (props: TextProps & { children: any }, ref: React.Ref<any>) => {
+    const { style, ...restProps } = props;
     return (
-      <Text style={[styles.textStyles, style]} {...restProps}>
-        {this.props.children}
-      </Text>
+      <NativeText
+        {...(ref ? { ref } : {})}
+        style={[styles.textStyles, style]}
+        {...restProps}
+      >
+        {props.children}
+      </NativeText>
     );
   }
-}
-
-export default NormalizedText;
+);
 
 const styles = StyleSheet.create({
   textStyles: {
@@ -23,3 +29,5 @@ const styles = StyleSheet.create({
     color: "black"
   }
 });
+
+export default Text;
