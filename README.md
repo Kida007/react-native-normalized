@@ -1,5 +1,6 @@
 <h2><div align="center">react-native-normalized</div></h2>
 <p align="center">Components that behave more consistently between iOS and Android</p>
+<p align="center"><a href="https://rnnormalized.netlify.com/">https://rnnormalized.netlify.com</a> </p>
 
 
 <div align="center"><sub>Install using:</sub></div>
