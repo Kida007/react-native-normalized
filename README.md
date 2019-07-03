@@ -41,6 +41,7 @@ export default App;
 ### `Alert`
 
 * `Alert.alert()` is by default not dismissable. The RN implementation is dismissable on Android but not on iOS.
+> ✅ Since React Native v0.60, this is fixed!
 
 ### `<ActivityIndicator/>`
 <table>
@@ -99,6 +100,8 @@ Normalized <code>Text</code> on Android
 
 <ul>
 <li>The default color of the text is black <code>#000000</code>
+    <blockquote> ✅ Since React Native v0.60, this is fixed!</blockquote>
+
 <li>The default font on Android is explicitly set to Roboto. This <a target="_blank" href="https://github.com/facebook/react-native/issues/15114">fixes an issue which cuts off text on Oppo and OnePlus phones:</a>
 </ul>
 
