@@ -157,6 +157,7 @@ Normalized<br/><code>TextInput</code><br/>on Android
 <li>If <code>multiline</code> is true, the text aligns on top on Android.
 <li>The default placeholder text color is <code>#C7C7CD</code> on Android, the same as the iOS default
 <li>The default <code>underlineColorAndroid</code> is <code>transparent</code>. This is the default behavior since React Native 0.56, so it will only make a difference if you still use an older version.
+<li><strong>New since 2.0.0:</strong> The default color is `#000`, regardless of dark mode or not. Otherwise the text input color might become '#fff' on iOS if the device turns to dark mode.
 </ul>
 
 ## Development and Ideas
