@@ -1,6 +1,6 @@
 {
   "name": "react-native-normalized",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0-alpha.1",
   "description": "React Native components with more consistent behavior on iOS and Android",
   "repository": "https://github.com/Kida007/react-native-normalized",
   "author": "Piyush Gupta, Jonny Burger",
