@@ -1,14 +1,17 @@
-import { Alert, AlertButton, AlertOptions } from "react-native";
+import { Alert as NativeAlert, AlertButton, AlertOptions } from "react-native";
 
-export default class NormalizedAlert {
+export class Alert {
   static alert(
     title: string,
     message?: string,
     buttons?: AlertButton[],
     options?: AlertOptions
   ) {
-    Alert.alert(title, message, buttons, { ...options, cancelable: false });
+    NativeAlert.alert(title, message, buttons, {
+      ...options,
+      cancelable: false,
+    });
   }
   // @ts-ignore
-  static prompt = Alert.prompt;
+  static prompt = NativeAlert.prompt;
 }

@@ -3,11 +3,13 @@ import {
   Text as NativeText,
   StyleSheet,
   TextProps,
-  Platform
+  Platform,
 } from "react-native";
 
-const Text = forwardRef(
-  (props: TextProps & { children: any }, ref: React.Ref<any>) => {
+export type Text = NativeText;
+
+export const Text = forwardRef(
+  (props: TextProps & { children: any }, ref: React.Ref<NativeText>) => {
     const { style, ...restProps } = props;
     return (
       <NativeText
@@ -24,10 +26,8 @@ const Text = forwardRef(
 const styles = StyleSheet.create({
   textStyles: {
     ...Platform.select({
-      android: { fontFamily: "Roboto" }
+      android: { fontFamily: "Roboto" },
     }),
-    color: "black"
-  }
+    color: "black",
+  },
 });
-
-export default Text;

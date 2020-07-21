@@ -1,11 +1,13 @@
 import React, { forwardRef } from "react";
 import {
   ActivityIndicatorProps,
-  ActivityIndicator as NativeActivityIndicator
+  ActivityIndicator as NativeActivityIndicator,
 } from "react-native";
 
-const NormalizedActivityIndicator = forwardRef(
-  (props: ActivityIndicatorProps, ref: React.Ref<any>) => {
+export type ActivityIndicator = NativeActivityIndicator;
+
+export const ActivityIndicator = forwardRef(
+  (props: ActivityIndicatorProps, ref: React.Ref<NativeActivityIndicator>) => {
     return (
       <NativeActivityIndicator
         {...(ref ? { ref } : {})}
@@ -15,5 +17,3 @@ const NormalizedActivityIndicator = forwardRef(
     );
   }
 );
-
-export default NormalizedActivityIndicator;
