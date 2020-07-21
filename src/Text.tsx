@@ -1,4 +1,4 @@
-import React, { forwardRef } from "react";
+import React, { forwardRef, useMemo } from "react";
 import {
   Text as NativeText,
   StyleSheet,
@@ -9,14 +9,14 @@ import {
 export type Text = NativeText;
 
 export const Text = forwardRef(
-  (props: TextProps & { children: any }, ref: React.Ref<NativeText>) => {
+  (
+    props: TextProps & { children: React.ReactNode },
+    ref: React.Ref<NativeText>
+  ) => {
     const { style, ...restProps } = props;
+    const styleProp = useMemo(() => [styles.textStyles, style], [style]);
     return (
-      <NativeText
-        {...(ref ? { ref } : {})}
-        style={[styles.textStyles, style]}
-        {...restProps}
-      >
+      <NativeText {...(ref ? { ref } : {})} style={styleProp} {...restProps}>
         {props.children}
       </NativeText>
     );

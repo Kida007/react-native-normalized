@@ -19,7 +19,9 @@ export const TextInput = forwardRef(
       ? { textAlignVertical: "top" as "top" }
       : {};
     const { style, ...otherProps } = props;
-    const styleProp = useMemo(() => [styles.black, style].filter(Boolean), []);
+    const styleProp = useMemo(() => [styles.black, style].filter(Boolean), [
+      style,
+    ]);
     return (
       <NativeTextInput
         {...(ref ? { ref } : {})}
